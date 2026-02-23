@@ -1,0 +1,122 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background-image:url(https://www.wearegecko.co.uk/media/50316/mountain-3.jpg) ;
+background-size: cover;
+height: 109vh;
+/*align-items: center;
+display: flex;
+justify-content:flex-start;*/
+}
+
+.navbar{
+
+
+
+}
+
+.icon{
+
+
+
+}
+
+.logo{
+color: orange;
+font-size:25px ;
+font-family: Arial;
+padding-left: 20px;
+float: left;
+padding-top: 10px;
+}
+
+.menu{
+ float: left;   
+ width: 400px;
+ height: 70px;
+}
+
+ul{
+float: left;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+ul li{
+list-style: none;
+margin-left: 62px;
+margin-top: 27px;
+font-size:14px ;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+ul li a:hover{
+color: orange;
+
+}
+
+.content{
+max-width: 550px;
+height: auto;
+color: aliceblue;
+position: relative;
+padding-left: 20px;
+text-align: left;
+margin-left: 0px;
+margin-right: auto;
+
+
+}
+.btn{
+background-color: orange;
+width: 100px;
+height: 30px;
+border: none;
+cursor: pointer;
+text-decoration: none;
+border-radius: 36px;
+margin-left: 45px;
+margin-top: 20px;
+}
+
+.search{
+float: left;
+margin-left: 400px;
+
+}
+
+.srch{
+width: 200px;
+height: 40px;
+border: 1px solid orange;
+margin-top: 13px;
+font-size: 16px;
+float: left;
+color: aliceblue;
+border-radius: 4px;
+}
+
+.button{
+height: 40px;
+background:orange ;
+color: aliceblue;
+font-size: 15px;
+border: 2px orange;
+width: 100%;
+border-bottom-right-radius: 5px;
+margin-top: 13px;
+border-radius: 4px;
+}
+
