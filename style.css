@@ -148,18 +148,20 @@ border-radius: 4px;
 
 .form{
 position: absolute;
-top: 200px;
+top: 100px;
 left: 870px;
 padding: 25px;
 border-radius: 10px;
-background: black;
+background:white;
 width: 250px;
 height: 380px;
 margin-bottom:50px;
 }
 
 .form h2{
-
-
+font-family: sans-serif;
+color: orange;
+border-radius: 10px;
+text-align: center;
 
 }
