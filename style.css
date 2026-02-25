@@ -15,15 +15,15 @@ justify-content:flex-start;*/
 }
 
 .navbar{
-
-
-
+width: 1200px;
+height: 75px;
+margin: auto;
 }
 
 .icon{
-
-
-
+width: 200px;
+float: left;
+height: 70px;
 }
 
 .logo{
@@ -118,8 +118,8 @@ margin-top: 20px;
 
 .search{
 float: left;
-margin-left: 400px;
-display: flex;
+margin-left: 270px;
+width: 330px;
 }
 
 
@@ -144,6 +144,7 @@ width: 100px;
 border-bottom-right-radius: 5px;
 margin-top: 13px;
 border-radius: 4px;
+cursor: pointer;
 }
 
 .form{
@@ -163,5 +164,59 @@ font-family: sans-serif;
 color: orange;
 border-radius: 10px;
 text-align: center;
+border-radius: 10px;
+margin: 2px;
+}
 
+.form input{
+width: 240px;
+height: 35px;
+font-size: 15px;
+letter-spacing: 1px;
+margin-top: 30px;
+border-top: none;
+border-bottom: 1px solid orange;
+border-right: none;
+border-left: none;
+}
+
+.login{
+background: orange;
+border: none;
+border-radius: 10px;
+color: white;
+font-size: 18px;
+height: 40px;
+width: 240px;
+margin-top: 30px;
+cursor: pointer;
+}
+
+.login:hover{
+background: rgb(254, 179, 151);
+color: orange;
+}
+.login a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+
+.form .link{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+
+.liw{
+
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
 }
